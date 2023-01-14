@@ -23,3 +23,7 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.club__net__bg {
+  background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
+}

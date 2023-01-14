@@ -3,9 +3,20 @@ import Button from "../common/Button";
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [isTrue, setTrue] = React.useState(false);
   const ref = useRef(null);
 
   useEffect(() => {
+    // scrollHandler functionality
+    const headerHandler = () => {
+      if (window.scrollY >= 98) {
+        return setTrue(true);
+      } else {
+        return setTrue(false);
+      }
+    };
+
+    window.addEventListener("scroll", headerHandler);
     const handler = (e) => {
       if (ref && ref.current && !ref.current.contains(e.target)) {
         return setIsOpen(false);
@@ -15,11 +26,18 @@ const Header = () => {
 
     return () => {
       window.removeEventListener("mousedown", handler);
+      window.removeEventListener("scroll", headerHandler);
     };
-  }, [ref]);
-
+  }, [ref, isTrue]);
   return (
-    <header className="sticky left-0 top-0 !bg-transparent z-50">
+    <header
+      className={`
+    ${
+      isTrue
+        ? "sticky left-0 top-0 !bg-[#100f11] bg-opacity-75"
+        : "!bg-[#100f11] bg-opacity-10"
+    }  z-50 `}
+    >
       <div className="max-w-[1200px] mx-auto py-4 px-4 md:px-0">
         <div className="navbar ">
           <div className="navbar-start">
@@ -27,7 +45,7 @@ const Header = () => {
               <ul
                 ref={ref}
                 tabIndex={0}
-                className={`menu bg-black menu-compact dropdown-content mt-3 p-2 shadow  rounded-box sm:w-52 md:w-96 ${
+                className={`menu bg-black menu-compact dropdown-content mt-3 p-2 shadow  rounded-box !w-11/12 ${
                   isOpen && "!visible !opacity-100 lg:hidden"
                 }`}
               >
@@ -106,17 +124,16 @@ const Header = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                className="inline-block w-5 h-5 stroke-current text-white"
               >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
               </svg>
             </label>
           </div>

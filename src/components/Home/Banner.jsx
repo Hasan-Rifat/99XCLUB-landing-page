@@ -2,8 +2,6 @@ import React from "react";
 import Button from "../../common/Button";
 import bg from "../../assets/images/bg.png";
 import bgAfter from "../../assets/images/bg-hero-after.png";
-import shape1 from "../../assets/images/shap1.png";
-import shape2 from "../../assets/images/shap2.png";
 
 const Banner = () => {
   return (
@@ -13,7 +11,7 @@ const Banner = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="relative -mt-[97.59px]"
+      className="relative "
     >
       {/* bg bottom */}
       <div
@@ -29,19 +27,20 @@ const Banner = () => {
       <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__top absolute right-[6%] -top-[7%] "></div>
       <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__bottom absolute left-[6%] bottom-0 "></div>
       <div className="max-w-[1200px] mx-auto py-4 px-4 md:px-0">
-        <div className="max-w-[683px] mx-auto py-4 px-4 md:px-0 text-center pt-[200px] pb-[146px]">
+        <div className="max-w-[683px] mx-auto  px-4 md:px-0 text-center  py-[70px] lg:pt-[200px] lg:pb-[146px]">
           <div>
             <div>
               <span className="text__style text-[16px] font-medium leading-[25px]">
                 One Stop Solution for NFTs (Lifetime Pass)!
               </span>
-              <h2 className="text-[#E1E2EE] sm:text-[30px] sm:leading-[33px] md:text-[61px] font-black md:leading-[73.2px] mt-[10px]">
+              <h2 className="text-[#E1E2EE] text-[20px] leading-[24px] sm:text-[30px] sm:leading-[33px] md:text-[61px] font-black md:leading-[73.2px] mt-[10px]">
                 Genesis Edition Digital Membership Pass
               </h2>
-              <p className=" text-[#B4B5BD] font-normal text-base leading-[25.6px] mt-[20px]">
-                A private group of 3333 dedicated NFT collectors and artists.
+              <p className=" text-[#B4B5BD] font-normal text-base leading-[25.6px] mt-[20px] max-w-[497px] mx-auto">
+                A private group of
+                <strong> 3333 dedicated NFT collectors</strong> and artists.
                 Membership to the collective and all of the benefits come from
-                holding the 99xClub Membership Pass.
+                holding the <strong> 99xClub Membership Pass. </strong>
               </p>
               <Button classNames="py-[20px] px-[24px] mt-[40px]">
                 Mint your NFT
