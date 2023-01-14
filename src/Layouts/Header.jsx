@@ -19,8 +19,8 @@ const Header = () => {
   }, [ref]);
 
   return (
-    <header className="bg-black">
-      <div className="max-w-[1200px] mx-auto flex justify-between items-center py-4 px-4 md:px-0">
+    <header className="sticky left-0 top-0 !bg-transparent z-50">
+      <div className="max-w-[1200px] mx-auto py-4 px-4 md:px-0">
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown ">
@@ -32,7 +32,9 @@ const Header = () => {
                 }`}
               >
                 <li>
-                  <a className="text-[#E1E2EE] leading-[25.6px]">Membership</a>
+                  <a className="text-[#E1E2EE] leading-[25.6px] mx-[12px]">
+                    Membership
+                  </a>
                 </li>
                 <li>
                   <a className="font-normal text-[#9E9EA6] leading-[25.6px]">
@@ -55,7 +57,9 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <Button classNames={"ms:hidden"}>Mint NFT</Button>
+                  <Button classNames={"ms:hidden py-3 px-[25.15px]"}>
+                    Mint NFT
+                  </Button>
                 </li>
               </ul>
             </div>
@@ -64,7 +68,9 @@ const Header = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a className="text-[#E1E2EE] leading-[25.6px]">Membership</a>
+                <a className="text-[#E1E2EE] leading-[25.6px] mx-[12px]">
+                  Membership
+                </a>
               </li>
               <li>
                 <a className="font-normal text-[#9E9EA6] leading-[25.6px]">
@@ -89,7 +95,9 @@ const Header = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <Button classNames={"hidden lg:block"}>Mint NFT</Button>
+            <Button classNames={"hidden lg:block py-3 px-[25.15px]"}>
+              Mint NFT
+            </Button>
             <label
               ref={ref}
               tabIndex={0}

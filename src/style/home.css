@@ -5,3 +5,21 @@
     #7d32eb 103.28%
   ) !important;
 }
+.shape__top {
+  background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
+  opacity: 0.5;
+  filter: blur(300px);
+}
+.shape__bottom {
+  background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
+  opacity: 0.3;
+  filter: blur(300px);
+}
+
+.text__style {
+  background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
