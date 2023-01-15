@@ -17,12 +17,12 @@
 }
 .shape__top {
   background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
-  opacity: 0.5;
+  /* opacity: 0.5; */
   filter: blur(300px);
 }
 .shape__bottom {
   background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
-  opacity: 0.3;
+  /* opacity: 0.3; */
   filter: blur(300px);
 }
 
@@ -40,7 +40,7 @@
 
 .Reward__system {
   background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
-  opacity: 0.4;
+  /* opacity: 0.4; */
   filter: blur(300px);
   border-radius: 50%;
 }

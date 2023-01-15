@@ -18,12 +18,12 @@ const RewardSystem = () => {
         <img src={star2} alt="" />
       </div>
       <div className="max-w-[1216px] mx-auto py-4 px-4 md:px-0">
-        <div className="Reward__system xl:w-[704px] xl:h-[704px] sm:w-[500px] sm:h-[500px] absolute  xl:left-[31%] md:left-[16%] md:top-[7%]  sm:left-[18%] left-[20%] -top-[1%] w-[300px] h-[300px] "></div>
+        <div className="Reward__system opacity-40 xl:w-[704px] xl:h-[704px] sm:w-[500px] sm:h-[500px] absolute  xl:left-[31%] md:left-[16%] md:top-[7%]  sm:left-[18%] left-[20%] -top-[1%] w-[300px] h-[300px] "></div>
         <div className="z-50">
           <div>
             <img src={star} alt="" />
           </div>
-          <div className="max-w-[659px] mx-auto text-center mb-[62px] z-50 relative">
+          <div className="max-w-[659px] mx-auto text-center mb-[62px] z-1 relative">
             <span className="text__style text-base leading-[25.6px] font-bold tracking-[0.2em]">
               REWARD SYSTEM
             </span>

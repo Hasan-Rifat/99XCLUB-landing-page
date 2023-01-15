@@ -8,8 +8,8 @@ const BenefitsOfMinting = () => {
     <section className="bg-[#1E1E1E] py-[40px] sm:py-[80px] md:pt-[200px] md:pb-[108px] relative">
       <div className="max-w-[1125px] mx-auto py-4 px-4 md:px-0 ">
         <div>
-          <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__top absolute right-[14%] top-[16%] "></div>
-          <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__bottom absolute left-[13%] bottom-[14%] "></div>
+          <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__top absolute right-[2%] top-[8%] opacity-50"></div>
+          <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__bottom absolute left-[13%] bottom-[14%] opacity-30"></div>
           <div className="max-w-[659px] mx-auto text-center pb-[50px] md:pb-[108px]">
             <p className="text__style font-bold tracking-[0.2em]">
               MEMBERSHIP PASS

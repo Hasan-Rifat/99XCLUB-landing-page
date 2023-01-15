@@ -24,8 +24,8 @@ const Banner = () => {
       ></div>
 
       {/* shape top*/}
-      <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__top absolute right-[6%] -top-[7%] "></div>
-      <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__bottom absolute left-[6%] bottom-0 "></div>
+      <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__top absolute right-[6%] -top-[7%] opacity-50"></div>
+      <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__bottom absolute left-[6%] bottom-0 opacity-30"></div>
       <div className="max-w-[1200px] mx-auto py-4 px-4 md:px-0">
         <div className="max-w-[683px] mx-auto  px-4 md:px-0 text-center  py-[70px] lg:pt-[200px] lg:pb-[146px]">
           <div>
