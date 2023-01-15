@@ -58,7 +58,7 @@ const BenefitsOfMinting = () => {
               <div className="w-[83px] mx-auto">
                 <img className="mx-auto" src={rocket} alt="" />
               </div>
-              <div>
+              <div className="p-5">
                 <h3 className="text-[#E1E2EE] text-[24px] leading-[28px] md:text-[32px] md:leading-[44px] font-bold mb-[20px]">
                   99xClub Metaverse
                 </h3>

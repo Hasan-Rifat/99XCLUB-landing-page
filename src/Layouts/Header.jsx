@@ -35,24 +35,22 @@ const Header = () => {
     ${
       isTrue
         ? "sticky left-0 top-0 !bg-[#100f11] bg-opacity-75"
-        : "!bg-[#100f11] bg-opacity-10"
+        : "!bg-[#100f11] bg-opacity-0"
     }  z-50 `}
     >
       <div className="max-w-[1200px] mx-auto py-4 px-4 md:px-0">
-        <div className="navbar ">
+        <div className="navbar px-4">
           <div className="navbar-start">
-            <div className="dropdown ">
+            <div ref={ref} className="dropdown ">
               <ul
                 ref={ref}
                 tabIndex={0}
-                className={`menu bg-black menu-compact dropdown-content mt-3 p-2 shadow  rounded-box !w-11/12 ${
+                className={`menu bg-black menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52 ${
                   isOpen && "!visible !opacity-100 lg:hidden"
                 }`}
               >
                 <li>
-                  <a className="text-[#E1E2EE] leading-[25.6px] mx-[12px]">
-                    Membership
-                  </a>
+                  <a className="text-[#E1E2EE] leading-[25.6px] ">Membership</a>
                 </li>
                 <li>
                   <a className="font-normal text-[#9E9EA6] leading-[25.6px]">
@@ -75,7 +73,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <Button classNames={"ms:hidden py-3 px-[25.15px]"}>
+                  <Button classNames={"ms:hidden py-2 px-[15px]"}>
                     Mint NFT
                   </Button>
                 </li>

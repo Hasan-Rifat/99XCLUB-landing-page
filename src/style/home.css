@@ -1,3 +1,13 @@
+/* .dropdown {
+  display: block;
+  width: 100%;
+} */
+
+.dropdown .dropdown-content {
+  margin-top: 50px !important;
+  width: 13rem !important;
+}
+
 .button__style {
   background: linear-gradient(
     87.44deg,
@@ -26,4 +36,83 @@
 
 .club__net__bg {
   background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
+}
+
+.Reward__system {
+  background: linear-gradient(87.44deg, #4c63f1 1.94%, #7d32eb 103.28%);
+  opacity: 0.4;
+  filter: blur(300px);
+  border-radius: 50%;
+}
+
+.Reward__system__bottom {
+  background: linear-gradient(
+    103.69deg,
+    #4c63f1 4.31%,
+    #4964ee 40.87%,
+    #7d32eb 74.24%
+  );
+  mix-blend-mode: normal;
+  border: 1px solid #000000;
+  filter: blur(300px);
+}
+.reward__system__items {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(27px);
+  border-radius: 20px;
+}
+
+/* Accordion */
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary {
+  background: #100f11;
+  color: #b4b5bd;
+}
+
+details[open] summary::after {
+  content: "-";
+}
+
+details[open] summary ~ * {
+  animation: slideDown 0.3s ease-in-out;
+}
+
+details[open] summary p {
+  opacity: 0;
+  animation-name: showContent;
+  animation-duration: 0.6s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  margin: 0;
+}
+
+@keyframes showContent {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    height: auto;
+  }
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: auto;
+  }
 }
