@@ -19,8 +19,8 @@ const RewardSystem = () => {
       </div>
       <div className="max-w-[1216px] mx-auto py-4 px-4 md:px-0">
         <div className="Reward__system opacity-40 xl:w-[704px] xl:h-[704px] sm:w-[500px] sm:h-[500px] absolute  xl:left-[31%] md:left-[16%] md:top-[7%]  sm:left-[18%] left-[20%] -top-[1%] w-[300px] h-[300px] "></div>
-        <div className="z-50">
-          <div>
+        <div>
+          <div className="absolute left-[4%] top-[12%] md:left-[6%] md:top-[15%]">
             <img src={star} alt="" />
           </div>
           <div className="max-w-[659px] mx-auto text-center mb-[62px] z-1 relative">
@@ -45,7 +45,7 @@ const RewardSystem = () => {
               </p>
             </div>
             {/* second item */}
-            <div className="max-w-[1000px] mx-auto mb-[15px] ml-[35px]">
+            <div className="max-w-[1000px] mx-auto mb-[15px] lg:ml-[35px]">
               <div className="py-[26px] px-[30px]  rounded-[20px] reward__system__items xl:flex items-center justify-between">
                 <p className="block w-[28px] h-[28px] rounded-[50%] bg-white mx-auto m-8"></p>
                 <p className="text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[783px]">
@@ -69,7 +69,7 @@ const RewardSystem = () => {
               </p>
             </div>
             {/* fourth item */}
-            <div className="max-w-[1000px] mx-auto mb-[15px] ml-[35px]">
+            <div className="max-w-[1000px] mx-auto mb-[15px] lg:ml-[35px]">
               <div className="py-[26px] px-[30px]  rounded-[20px] reward__system__items xl:flex items-center justify-between">
                 <p className="block w-[28px] h-[28px] rounded-[50%] bg-white mx-auto m-8"></p>
                 <p className="text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[783px]">

@@ -28,7 +28,7 @@ const BenefitsOfMinting = () => {
                   <h3 className="text-[#E1E2EE] text-[24px] leading-[28px] md:text-[32px] md:leading-[44px] font-bold mb-[20px]">
                     Exclusive Access
                   </h3>
-                  <p className="text-[#B4B5BD] opacity-80 text-[20px] font-medium leading-[30px]">
+                  <p className="text-[#B4B5BD] opacity-80 text-base sm:text-[20px] font-medium sm:leading-[30px]">
                     Launching in January’23, People holding 99xClub Membership
                     Pass Genesis Edition will be able to claim a Mutant WAYC for
                     Free.
@@ -45,7 +45,7 @@ const BenefitsOfMinting = () => {
                   <h3 className="text-[#E1E2EE] text-[24px] leading-[28px] md:text-[32px] md:leading-[44px] font-bold mb-[20px]">
                     Exclusive Rewards
                   </h3>
-                  <p className="text-[#B4B5BD] opacity-80 text-[20px] font-medium leading-[30px]">
+                  <p className="text-base text-[#B4B5BD] opacity-80 sm:text-[20px] font-medium sm:leading-[30px]">
                     99xclub Membership Pass Genesis Edition holders will receive
                     long term benefits with NFTs Airdrop, rewards, events etc.
                   </p>
@@ -55,10 +55,10 @@ const BenefitsOfMinting = () => {
           </div>
           <div className="max-w-[787px] mx-auto mt-[114px]">
             <div className="text-center">
-              <div className="w-[83px] mx-auto">
+              <div className="w-[181px] h-[181px] mx-auto">
                 <img className="mx-auto" src={rocket} alt="" />
               </div>
-              <div className="p-5">
+              <div className="p-5 -mt-[46px]">
                 <h3 className="text-[#E1E2EE] text-[24px] leading-[28px] md:text-[32px] md:leading-[44px] font-bold mb-[20px]">
                   99xClub Metaverse
                 </h3>
