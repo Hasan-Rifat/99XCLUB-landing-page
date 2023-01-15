@@ -164,3 +164,35 @@ details[open] summary p {
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .dropdown .dropdown-content {
+    margin-top: 33px !important;
+    width: 44rem !important;
+    padding: 27px;
+  }
+}
+@media (max-width: 425px) {
+  .dropdown .dropdown-content {
+    margin-top: 33px !important;
+    width: 23rem !important;
+    padding: 27px;
+    left: -3px;
+  }
+}
+@media (max-width: 375px) {
+  .dropdown .dropdown-content {
+    margin-top: 33px !important;
+    width: 19rem !important;
+    padding: 25px;
+    left: -4px;
+  }
+}
+@media (max-width: 320px) {
+  .dropdown .dropdown-content {
+    margin-top: 33px !important;
+    width: 17rem !important;
+    padding: 11px;
+    left: -9px;
+  }
+}

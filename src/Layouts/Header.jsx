@@ -41,7 +41,7 @@ const Header = () => {
       <div className="max-w-[1200px] mx-auto py-4 px-4 md:px-0">
         <div className="navbar px-4">
           <div className="navbar-start">
-            <div ref={ref} className="dropdown ">
+            <nav ref={ref} className="dropdown ">
               <ul
                 ref={ref}
                 tabIndex={0}
@@ -78,7 +78,7 @@ const Header = () => {
                   </Button>
                 </li>
               </ul>
-            </div>
+            </nav>
             <a className="text-[#E1E2EE]">99X CLUB</a>
           </div>
           <div className="navbar-center hidden lg:flex">
