@@ -7,6 +7,7 @@ import bgAfter from "../assets/images/bg-hero-after.png";
 const Footer = () => {
   return (
     <footer className="pt-[99px] pb-[141px] bg-[#080709] relative">
+      <div className="footer__bg"></div>
       <div
         style={{
           background: `url(${bgAfter})`,

@@ -165,6 +165,15 @@ details[open] summary p {
   display: none;
 }
 
+.footer__bg {
+  background: linear-gradient(
+    164.62deg,
+    rgba(76, 99, 241, 0) 28.63%,
+    rgba(125, 50, 235, 0.28) 90.4%
+  );
+  opacity: 0.6;
+}
+
 @media (max-width: 768px) {
   .dropdown .dropdown-content {
     margin-top: 33px !important;

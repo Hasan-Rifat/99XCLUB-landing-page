@@ -5,7 +5,7 @@ import rocket from "../../assets/images/rocket.png";
 
 const BenefitsOfMinting = () => {
   return (
-    <section className="bg-[#1E1E1E] py-[40px] sm:py-[80px] md:pt-[200px] md:pb-[108px] relative">
+    <section className="bg-[#08070b] py-[40px] sm:py-[80px] md:pt-[200px] md:pb-[108px] relative">
       <div className="max-w-[1125px] mx-auto py-4 px-4 md:px-0 ">
         <div>
           <div className=" w-[300px] lg:w-[446px]  h-[300px] lg:h-[446px] rounded-[50%] shape__top absolute right-[2%] top-[8%] opacity-50"></div>
@@ -21,7 +21,7 @@ const BenefitsOfMinting = () => {
           <div className="sm:flex justify-between items-center gap-[75px]">
             <div className="mb-20 sm:mb-0 w-full sm:max-w-[525px]">
               <div className="text-center">
-                <div className="">
+                <div className="w-[181px] h-[150px] mx-auto">
                   <img className="mx-auto" src={ExclusiveAccess} alt="" />
                 </div>
                 <div>
@@ -38,7 +38,7 @@ const BenefitsOfMinting = () => {
             </div>
             <div className="w-full sm:max-w-[525px]">
               <div className="text-center">
-                <div className="">
+                <div className="w-[181px] h-[150px] mx-auto">
                   <img className="mx-auto" src={ExclusiveRewards} alt="" />
                 </div>
                 <div>
