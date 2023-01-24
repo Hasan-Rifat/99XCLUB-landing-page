@@ -20,7 +20,7 @@ const RewardSystem = () => {
       <div className="max-w-[1216px] mx-auto py-4 px-4 md:px-0">
         <div className="Reward__system opacity-40 xl:w-[704px] xl:h-[704px] sm:w-[500px] sm:h-[500px] absolute  xl:left-[31%] md:left-[16%] md:top-[7%]  sm:left-[18%] left-[20%] -top-[1%] w-[300px] h-[300px] "></div>
         <div>
-          <div className="absolute left-[4%] top-[12%] md:left-[6%] md:top-[15%]">
+          <div className="absolute left-[4%]  top-[0%] md:left-[6%] md:top-[15%]">
             <img src={star} alt="" />
           </div>
           <div className="max-w-[659px] mx-auto text-center mb-[62px] z-1 relative">
@@ -38,7 +38,7 @@ const RewardSystem = () => {
             {/* first item */}
             <div className="py-[26px] px-[30px]  rounded-[20px] reward__system__items xl:flex items-center justify-between mb-[15px]">
               <p className="block w-[28px] h-[28px] rounded-[50%] bg-white mx-auto m-8 "></p>
-              <p className="text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[823px]">
+              <p className="text-[16px] md:text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[823px]">
                 If you hold 1 99xclub Membership Pass = 1 Free NFT in Each NFT
                 Project launched by 99xclub team. Minimum 12 NFT projects will
                 be launched by 99xclub team in span of 3 years.
@@ -48,7 +48,7 @@ const RewardSystem = () => {
             <div className="max-w-[1000px] mx-auto mb-[15px] lg:ml-[35px]">
               <div className="py-[26px] px-[30px]  rounded-[20px] reward__system__items xl:flex items-center justify-between">
                 <p className="block w-[28px] h-[28px] rounded-[50%] bg-white mx-auto m-8"></p>
-                <p className="text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[783px]">
+                <p className="text-[16px] md:text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[783px]">
                   If you hold 15 99xclub Membership Pass = 15 Free NFT in Each
                   NFT Project launched by 99xclub team. Minimum 12 NFT projects
                   will be launched by 99xclub team in span of 3 years. 15 NFT
@@ -60,7 +60,7 @@ const RewardSystem = () => {
             {/* third item */}
             <div className="py-[26px] px-[30px]  rounded-[20px] reward__system__items xl:flex items-center justify-between mb-[15px]">
               <p className="block w-[28px] h-[28px] rounded-[50%] bg-white mx-auto m-8"></p>
-              <p className="text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[823px]">
+              <p className="text-[16px] md:text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[823px]">
                 If you hold 50 99xclub Membership Pass = 50 Free NFT in Each NFT
                 Project launched by 99xclub team. Minimum 12 NFT projects will
                 be launched by 99xclub team in span of 3 years. 50 NFT per
@@ -72,7 +72,7 @@ const RewardSystem = () => {
             <div className="max-w-[1000px] mx-auto mb-[15px] lg:ml-[35px]">
               <div className="py-[26px] px-[30px]  rounded-[20px] reward__system__items xl:flex items-center justify-between">
                 <p className="block w-[28px] h-[28px] rounded-[50%] bg-white mx-auto m-8"></p>
-                <p className="text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[783px]">
+                <p className="text-[16px] md:text-[25px] leading-[35px] font-medium text-[#E1E2EE] max-w-[783px]">
                   If you hold 100 99xclub Membership Pass = 100 Free NFT in Each
                   NFT Project launched by 99xclub team. Minimum 12 NFT projects
                   will be launched by 99xclub team in span of 3 years. 100 NFT
